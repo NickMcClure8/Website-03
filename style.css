@@ -28,3 +28,12 @@ header nav a {
 h1 {
   font-family: "Times New Roman", serif;
 }
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.hover-effect:hover {
+  color: red;
+  background-color: yellow;
+}
